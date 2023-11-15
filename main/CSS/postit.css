@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+
+ul li.nota a{
+    text-decoration:none;
+    color:#181823;
+    background:rgb(238, 238, 195);
+    display:block;
+    height: 10em;
+    width: 10em;
+    padding:1.5em;
+    box-shadow: 5px 5px 25px #181823;
+    transition: transform .2s linear;
+    transform: rotate(-8deg);
+}
+
+.grande{
+    margin-top: 1.5%;
+}
+
+.grande ul li{
+    list-style:none;
+    margin:0.7em;
+    float:left;   
+}
+
+ul li.nota h2{
+    text-align: center;
+    font-size:1.6em;
+    font-weight: 800;
+    padding-bottom:10px;
+}
+
+ul li.nota p{
+    font-weight: 500;
+    font-size: 1em;
+}
+
+ul li.nota:nth-child(even) a{
+    transform:rotate(8deg);
+    position:relative;
+    top: -4px;
+    background: #f7aeba;
+}
+
+ul li.nota:nth-child(3n) a{
+    transform:rotate(-6deg);
+    position:relative;
+    top:-4px;
+    background:#adf5c4;
+}
+    
+ul li.nota:nth-child(5n) a{
+    transform:rotate(10deg);
+    position:relative;
+    background: #b3e5f7;
+    top:-2px;
+}
+
+ul li.nota a:hover, ul li.nota a:focus{
+    box-shadow:10px 10px 7px #181823;
+    transform: scale(1.3);
+    position: relative;
+    z-index:10;         
+}
+
+
+/*CSS para la pagina resumen*/
+
+.pequeño ul li.nota a{
+    display:block;
+    height: 5em;
+    width: 5em;
+    padding:1em;
+    transition: transform .2s linear;
+
+}
+
+.pequeño ul li h2{
+    font-size:1em;
+    font-weight: 800;
+    padding-bottom:10px;
+}
+
+.pequeño ul li{
+    list-style:none; /* Elimina las viñetas de la lista */
+    margin:0.6em;
+    float:left;   
+}
+
+ul li.postit a:hover, ul li.nota a:focus{
+    box-shadow:10px 10px 7px #181823;
+    transform: scale(1.3);
+    position: relative;
+    z-index:10;           /*Para que salga por encima*/
+}
+                                                                                                                                                              

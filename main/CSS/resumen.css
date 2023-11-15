@@ -1,0 +1,67 @@
+
+.grid {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    float:left;
+}
+
+.caja{
+    float: left;
+    text-align: center; 
+}
+
+.archivos{
+    border-bottom:  2px solid #FFCF41;
+    grid-row: 1 ;
+	grid-column: 1;
+    float:left;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.archivos ul.lista li h2{
+    font-size: 0.8em;
+    float: left;
+}
+
+.tareas h2{
+    color: #181823;
+    text-align: left; 
+    margin-left: 40%;
+}
+
+.calendarios {
+    border-left:  2px solid #FFCF41;
+	grid-row: 2;
+	grid-column: 2;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.notas .pequeño{
+    margin-left: 6%;
+}
+
+.archivos .AzLeAm{
+    margin-bottom: 2%;
+    max-width: 200px;
+}
+
+.proyectos {
+	grid-row: 2;
+	grid-column: 1 ;
+}
+
+.notas{
+    border-left:  2px solid #FFCF41;
+    border-bottom:  2px solid #FFCF41;
+    grid-row: 1;
+	grid-column:  2;
+}

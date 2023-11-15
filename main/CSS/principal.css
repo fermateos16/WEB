@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+
+
+*{
+    margin:-3;
+    padding:-3;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Montserrat;
+    background-color: #2F477A;
+}
+
+.contenedor{
+    padding:  60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: #181823;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #373B44; 
+    background: linear-gradient(to right, hsla(222, 74%, 61%, 0.644), hsla(208, 44%, 33%, 0.644)), url(../Imagenes/Inicio.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.menu {
+    max-height: 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding: 30px 50px 0 50px;
+}
+
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+	margin-left: 2%;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.title {
+	font-size: 2.2em;
+    font-family: Montserrat;
+	font-weight: 800;
+    color: #EFEFEF;
+        
+}
+
+.login {
+	background-color: #FFCF41;
+	color: #537FE7;
+	padding: 10px 20px;
+	border-radius: 5px;
+    font-family: Montserrat;
+	text-decoration: none;
+    text-align: center;
+	font-weight: 700;
+}
+
+.login:hover {
+	background-color: #537FE7;
+	color: #FFCF41;
+    box-shadow:2px 2px 5px #181823;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+
+header .text-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.text-header h1{
+    font-size: 50px;
+    color:#efefef;
+}
+
+.text-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:#efefef; 
+}
+
+.producto{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*CSS correpsondiente a logo y título*/
+.cabecera {
+    padding: 0.5% 4% 0.5% 4%;
+    max-height: 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #2f477a;
+	color: #EFEFEF;
+}
+
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.title {
+	font-size: 2.2em;
+    font-family: Montserrat;
+	font-weight: 800;
+    color: #EFEFEF;  
+}
+
+.login {
+	background-color: #FFCF41;
+	color: #537FE7;
+	padding: 10px 20px;
+	border-radius: 5px;
+    font-family: Montserrat;
+	text-decoration: none;
+    text-align: center;
+	font-weight: 700;
+}
+
+.login:hover {
+	background-color: #537FE7;
+	color: #FFCF41;
+    box-shadow:2px 2px 5px #181823;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}

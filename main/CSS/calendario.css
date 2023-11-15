@@ -1,0 +1,91 @@
+.calendario{
+    text-align: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.Grande {
+    background-color: #3c5ca1;
+    color: #EFEFEF;
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vh;
+    width:80vmin;
+    height: 50vh;
+    position:relative;
+    text-align: right;
+  }
+
+.Pequeño{
+  background-color: #3c5ca1;
+  color: #EFEFEF;
+  border: 2px solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4vh;
+  height: 4vh;
+  position:relative;
+  text-align: right;
+}
+
+.dias th{
+    background-color: #EFEFEF;
+    color: #181823;
+    font-size: 1.2em;
+    font-weight: 800;
+    text-align: center;
+    padding: 3px;
+}
+
+.finde{
+  background-color: #203258;
+  border: 2px solid;
+}
+
+.semana td {
+    font-weight: 800;
+    text-align: center;
+    border: 2px solid;
+    cursor: pointer;
+    position: relative;
+}
+
+.tarea{
+    background-color: #FFCF41;
+    color: #181823;
+    font-weight: 900;
+  }
+/*
+.tarea:hover:after {
+    content: attr(data-tarea);
+    padding: 10px;
+    box-shadow:10px 10px 7px #181823;
+    font-weight: 700;
+    font-size: 1.2em;
+    position:fixed;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    transform: translateX(-50%);
+    background-color: #FFCF41;
+    color: #181823;
+    z-index: 10;
+  }
+*/
+
+.tarea:hover:after {
+    content: attr(data-tarea);
+    left: 50%;
+    bottom: 80%;
+    position:absolute;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    transform: translateX(-50%);
+    background-color: #000000;
+    color: #fff;
+    z-index: 1;
+  }
+  

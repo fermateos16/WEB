@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario con tareas</title>
+    <link rel="stylesheet" type="text/css" href="CSS/calendario.css">
+    <link rel="stylesheet" type="text/css" href="CSS/menu.css">
+
+    <link rel="shortcut icon" href="Imagenes/logo.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <nav class="cabecera">
+			<a href="Página_Principal.html"><img src="Imagenes/logo.ico" alt="Logo de la empresa" class="logo"></a>
+		  <h1 class="title">WORKVAULT</h1>
+		  <div class="contenedor-menu">
+        <div class="menu-trigger" >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="menu-lista">
+          <li><a href="resumen.html">Resumen</a></li>
+          <li><a href="#">Ajustes</a></li>
+          <li><a href="Página_Principal.html">Cerrar Sesión</a></li>
+        </ul>
+    </div>
+		</nav>
+    <script src="desplegable.js"></script>
+  </header>
+    <main>
+        <hr>
+        <div class="selector">
+              <li class="apartados">
+                  <a href="resumen.html">
+                  <H2>Resumen</H2>
+                  </a>
+              </li>
+              <li class="apartados"> 
+                  <a href="Nube.html">
+                  <H2>Nube</H2>
+                  </a> 
+              </li>
+              <li class="apartados"> 
+                  <a href="notas.html">                        
+                  <H2>Notas</H2>
+                  </a> 
+              </li>
+              <li class="apartados">
+                  <a href="proyectos.html">
+                  <H2>Proyectos</H2>
+                  </a>                
+              </li>
+              <li class="seleccion">
+                  <a href="CALENDARIO.html">
+                  <H2>Calendario</H2>
+                  </a>
+              </li>
+      </div>
+        <hr>
+        <!--Contenedor de botones-->
+        <div class="botones">
+            <button class="AzLeAm">Crear</button>
+            <button class="AzLeAm">Eliminar</button>
+            <button class="AzLeAm">Modificar</button>
+        </div>
+  <div class="calendario">
+  <h1>Calendario con tareas</h1>
+  <br></br>
+  <h2>Marzo 2023</h2>
+  
+  <table class="calendario Grande">
+    <thead>
+      <tr class="dias">
+        <th>Lun</th>
+        <th>Mar</th>
+        <th>Mie</th>
+        <th>Jue</th>
+        <th>Vie</th>
+        <th>Sab</th>
+        <th>Dom</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="semana">
+        <td></td>
+        <td></td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td class="finde">4</td>
+        <td class="finde">5</td>
+       
+      </tr>
+      <tr class="semana">
+        <td>6</td>
+        <td>7</td>
+        <td class="tarea" data-tarea="Fijar fechas" >8</td>
+        <td>9</td>
+        <td class="tarea" data-tarea="Entrega 1" >10</td>
+        <td  class="finde" >11</td>
+        <td  class="finde" >12</td>
+      </tr>
+      <tr class="semana">
+        <td  class="tarea" data-tarea="Tarea 2" >13</td>
+        <td>14</td>
+        <td>15</td>
+        <td class="tarea" data-tarea="Finalizar logo">16</td>
+        <td>17</td>
+        <td class="finde">18</td>
+        <td class="finde">19</td>
+      </tr>
+      <tr class="semana">
+        <td>20</td>
+        <td>21</td>
+        <td class="tarea" data-tarea="Plantear ejercicio" >22</td>
+        <td>23</td>
+        <td class="tarea" data-tarea="Terminar incio" >24</td>
+        <td class="finde">25</td>
+        <td class="finde">26</td>
+      </tr>
+     <tr class="semana">
+        <td class="tarea" data-tarea="Seminario" >27</td>
+        <td class="tarea" data-tarea="Entregable SSW" >28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td  class="finde" ></td>
+        <td class="finde" ></td>
+      </tr>
+      <!-- Resto de celdas para los días del mes -->
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
